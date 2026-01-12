@@ -90,6 +90,13 @@ main {
             color: white;
         }
     }
+
+    .jumbotron {
+        background-image: url('../img/jumbotron.jpg');
+        background-size: cover;
+        background-position: top;
+        height: 400px;
+    }
 }
 
 footer {
