@@ -104,6 +104,15 @@ footer {
     background-image: url('../img/footer-bg.jpg');
     min-height: 50vh;
 
+    .links {
+        .right {
+            background-image: url('../img/dc-logo-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat
+        }
+    }
+
     .row {
         display: flex;
         justify-content: space-between;
