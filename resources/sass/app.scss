@@ -35,6 +35,24 @@ img {
     max-width: 100%;
 }
 
+.jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+    background-position: center top;
+    //height: 400px;
+    padding: 200px 0;
+}
+
+.section-title {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+    padding: 10px 30px;
+    transform: translateY(-50%);
+}
+
 header {
     text-align: center;
     background-color: white;
@@ -92,12 +110,6 @@ main {
         }
     }
 
-    .jumbotron {
-        background-image: url('../img/jumbotron.jpg');
-        background-size: cover;
-        background-position: top;
-        height: 400px;
-    }
 }
 
 footer {

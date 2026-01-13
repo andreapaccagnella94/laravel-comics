@@ -11,9 +11,11 @@ class card extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public $fumetto;
+
+    public function __construct($fumetto)
     {
-        //
+        $this->fumetto = $fumetto;
     }
 
     /**
